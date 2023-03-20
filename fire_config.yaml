@@ -3,9 +3,11 @@ path: ../datasets  # dataset root dir
 train: 
     - fire/train/images  # train images
     - VisDrone/VisDrone2019-DET-train/images
+    - Wildfire_Smoke/train/images
 val: 
     - fire/val/images
     - VisDrone/VisDrone2019-DET-val/images
+    - Wildfire_Smoke/valid/images
 test:  # test images (optional)
 
 names:
