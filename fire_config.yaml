@@ -4,10 +4,12 @@ train:
     - fire/train/images  # train images
     - VisDrone/VisDrone2019-DET-train/images
     - Wildfire_Smoke/train/images
+    - wildfire-smoke-detection/train/images
 val: 
     - fire/val/images
     - VisDrone/VisDrone2019-DET-val/images
     - Wildfire_Smoke/valid/images
+    - wildfire-smoke-detection/valid/images
 test:  # test images (optional)
 
 names:
